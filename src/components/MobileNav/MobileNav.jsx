@@ -7,22 +7,28 @@ const MobileNav = ({isOpen, toggleMenu}) => {
     className={`mobile-menu ${isOpen ? "active" : ""}`}
     onClick ={toggleMenu}>
         <div className="mobile-menu-container">
-            <img src="./src/assets/main_logo.png" slt="" />
-            <ul>
-                <li>
-                    <a className='menu-item'>Home</a>
-                </li>
-                <li>
-                <a className='menu-item'>Skills</a>
-                </li>
-                <li>
-               <a className='menu-item'>Work Experience</a>
-               </li>
-              <li>
-               <a className='menu-item'>Contact Me</a>
-              </li>
-              <button className='contact-btn' onClick={() => {}}>
-                Hire Me
+         
+        <ul>
+            <li>
+              <a href="#" className='menu-item' onClick={() => scrollToSection("Home")}>Home</a>
+            </li>
+            <li>
+              <a href="#Technical Proficiency" className='menu-item' onClick={() => scrollToSection("Technical Proficiency")}>Technical Proficiency</a>
+            </li>
+            
+            <li>
+              <a href="#projects" className='menu-item' onClick={() => scrollToSection("projects")}>Projects</a>
+            </li>
+            <li>
+            <a  href="#Skills" className='menu-item' onClick={() => scrollToSection("Skills")}>Skills</a>
+            </li>
+            <li>
+              <a href="#Contact Me"className='menu-item' onClick={() => scrollToSection("Contact Me")}>Contact Me</a>
+            </li>
+              <button className='contact-btn' onClick={() => {
+                 window.location.href = 'https://drive.google.com/file/d/1zEvBsAApatBeYPkBARRDVgIWipf9FZqk/view?usp=sharing';
+              }}>
+                Resume
               </button>
             </ul>
         </div>
