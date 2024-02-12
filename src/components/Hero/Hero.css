@@ -146,9 +146,12 @@
     }
     .hero-img{
         gap: 1rem;
+        padding-right: 35px;
     }
     .hero-img > div {
         gap: 1rem;
+        padding-right: 50px;
+        
     }
     .hero-img > div > img {
         width: 16rem;
