@@ -26,7 +26,7 @@ const MobileNav = ({isOpen, toggleMenu}) => {
               <a href="#Contact Me"className='menu-item' onClick={() => scrollToSection("Contact Me")}>Contact Me</a>
             </li>
               <button className='contact-btn' onClick={() => {
-                 window.location.href = 'https://drive.google.com/file/d/1zEvBsAApatBeYPkBARRDVgIWipf9FZqk/view?usp=sharing';
+                 window.location.href = 'https://drive.google.com/file/d/1_faSJ7SEZvBgVBxL1zFcrLCYXlWfclX0/view?usp=sharing';
               }}>
                 Resume
               </button>
