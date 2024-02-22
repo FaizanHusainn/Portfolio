@@ -29,11 +29,11 @@ const ContactForm = () => {
     <div className='contact-form-content'>
         <form ref= {form} onSubmit={sendEmail}>
             <div className='name-container'>
-                <input type="text" name="firstname" placeholder='First Name' />
-                <input type='text' name="lastname" placeholder='Last Name' />
+                <input type="text" name="firstname" placeholder='First Name' required />
+                <input type='text' name="lastname" placeholder='Last Name'  required />
             </div>
-            <input type='text' name="email" placeholder='Email' />
-            <textarea type="text" name="message" placeholder='Message' rows={3} />
+            <input type='text' name="email" placeholder='Email'   required />
+            <textarea type="text" name="message" placeholder='Message' rows={3}  required  />
             <button>Send</button>
         </form>
     </div>
