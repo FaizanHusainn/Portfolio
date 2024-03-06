@@ -24,27 +24,7 @@ const SkillsMenu = () => {
                     <img  src='./NextJS.png' alt=""/>
                   </div> 
     </div>
-    <div className='skills-div'>
-                  <div className='tech-icon'>
-                    <img  src='./node.png' alt=""/>
-                  </div> 
-                  <div className='tech-icon'>
-                    <img  src='./express.png' alt=""/>
-                  </div>
-                  <div className='tech-icon'>
-                    <img  src='./SQL.png' alt=""/>
-                  </div> 
-                  <div className='tech-icon'>
-                    <img  src='./wordpress.png' alt=""/>
-                  </div> 
-                  <div className='tech-icon'>
-                    <img  src='./Elementor.png' alt=""/>
-                  </div> 
-                  <div className='tech-icon'>
-                    <img  src='./figma.png' alt=""/>
-                  </div> 
-    </div>
-    
+       
    </div>
   )
 }
