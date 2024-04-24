@@ -41,7 +41,7 @@ const SkillsMenu = () => {
                     <img  src='./Elementor.png' alt=""/>
                   </div> 
                   <div className='tech-icon'>
-                    <img  src='./figma.png' alt=""/>
+                    <img  src='./Shopify.jpg' alt=""/>
                   </div> 
     </div>
        
