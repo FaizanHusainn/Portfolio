@@ -53,7 +53,19 @@ export const WORK_EXPERIENCE = [
   link: "https://www.google.com/",
   },
   {
-    title: "2. Outsourcing Agency Website",
+  title: "2.Meraki Trends E-commerce Website Development",
+  date: "Feb 2024 - March 2024",
+  responsibilities: [
+    "Developed a visually appealing e-commerce website using WordPress, WooCommerce, Elementor, HTML, CSS, and JavaScript.",
+    "Implemented the full functionality of woocommerce, Embedded OTP verification of user signin and Payment gateway",
+    "Designed and implemented the complete UI/UX, ensuring a seamless and intuitive browsing experience.",
+    "Optimized website performance, implemented responsive design, and integrated SEO strategies to enhance visibility and user engagement.",
+    "Collaborated with stakeholders, provided regular updates, and incorporated feedback to deliver a successful project.",
+  ],
+  link: "https://www.merakitrends.com/",
+  },
+  {
+    title: "3. Outsourcing Agency Website",
     date: "29 Sep 2023 - 5 Oct 2029",
     responsibilities : [
     "Technology used: HTML, CSS, JavaScript, WordPress, Elementor Page Builder",
@@ -66,7 +78,7 @@ export const WORK_EXPERIENCE = [
     
   },
   {
-    title: "3. WEB BASED CHAT APPLICATION",
+    title: "4. WEB BASED CHAT APPLICATION",
     date: "Dec 2023",
     responsibilities : [
     "Technologies used: Java, Java Swing, Java Applet, Socket Programming.",
@@ -78,7 +90,7 @@ export const WORK_EXPERIENCE = [
     link: "https://github.com/FaizanHusainn/ChatApplication",
   },
   {
-    title: "4. Job Information Website",
+    title: "5. Job Information Website",
     date: "June 2023",
     responsibilities : [
     " Technology used:  WordPress, Elementor Page Builder",
@@ -93,7 +105,7 @@ export const WORK_EXPERIENCE = [
   
   
   {
-    title: "5. Responsive Studio Website",
+    title: "6. Responsive Studio Website",
     date: "Jan 2023 - Feb 2023",
     responsibilities : [
     "Technology used: HTML, CSS, Javascript, Locomotive JS and GSAP.",
