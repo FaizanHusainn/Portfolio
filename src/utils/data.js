@@ -42,7 +42,7 @@ skills: [
 export const WORK_EXPERIENCE = [
   {
   title: "1. COMPLAINT-SYSTEM TO SUBMIT USER’S COMPLAINTS TO THE DIFFERENT DEPARTMENTS",
-  date: "Jan 2024 - Present",
+  date: "Jan 2024 - Feb 2024",
   responsibilities: [
     "Technologies used: React, Bootstrap, Nodejs, Express, MongoDB",
     "Uses React to handle form submission events and send a request to the back-end when a user submits a complaint.",
