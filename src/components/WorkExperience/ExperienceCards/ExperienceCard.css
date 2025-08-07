@@ -63,3 +63,9 @@
         font-size: 0.75rem;
     }
 }
+
+.work-image{
+    width: 500px;
+    height: 250px;
+    padding: 10px 0px 10px 0px;
+}

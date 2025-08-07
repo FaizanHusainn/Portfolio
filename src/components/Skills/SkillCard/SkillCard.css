@@ -1,7 +1,11 @@
 .skills-card {
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
-    padding: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    margin-bottom: 15px;
     text-align: center;
     background: rgba(22,17,47,0.398);
     backdrop-filter: blur(1rem);
@@ -20,8 +24,8 @@
 }
 
 .skill-icon {
-width: 4rem;
-height: 4rem;
+width: 3.5rem;
+height: 3.5rem;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -29,13 +33,13 @@ background: #2a2252;
 border-radius: 0.65rem;
 border: 1.5px solid #6852ba;
 position: absolute;
-top: -1rem;
-left: -1rem;
+top: -1.5rem;
+left: -1.2rem;
 
 }
 
 .skill-icon img {
-    width: 2.6rem;
+    width: 2.4rem;
     height: auto;
     object-fit: contain;
 }

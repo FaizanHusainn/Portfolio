@@ -10,7 +10,7 @@ const SkillCard = ({title, iconUrl, isActive, onClick}) => {
         </div>
     
 
-    <span> {title}</span>
+    <span style={{fontSize : "18px"}}> {title}</span>
     </div>
   )
 }

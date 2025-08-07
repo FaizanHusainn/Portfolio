@@ -1,20 +1,27 @@
 export const SKILLS = [
 {
-title: "Frontend",
-icon: "./front-end-logo.png",
+title: "Languages & Framework" ,
+icon: "./coding.png",   
+// Java, JavaSrcipt, React, Spring Boot, Spring MVC, Spring Security, Hibernate, JPA
 skills: [
-    { skill: "HTML5", percentage: "85%" },
-    { skill: "CSS3", percentage: "70%" },
-    { skill: "JavaScript", percentage: "75%" },
-    { skill: "React.js", percentage: "60%"},
+    { skill: "Java" },
+    { skill: "JavaScript" },
+    { skill: "React JS" },
+    { skill: "Spring MVC"},
+    { skill: "Spring Security"},
+    { skill: "Hibernate"},
+    { skill: "JPA"},
+
 ],
 },
 {
   title: "Backend",
   icon: "./Backend.png",
   skills: [
-    { skill: "Node.js", percentage: "70%"},
-    { skill: "Express.js", percentage: "65%" },
+     { skill: "Spring Boot", percentage: "75%"},
+     { skill: "Node.js", percentage: "70%"},
+     { skill: "Express JS", percentage: "70%"},
+  
   ],
 },
 {
@@ -37,11 +44,13 @@ skills: [
     { skill: "Attention to Detail", percentage: "75%"},
     ],
 },
+
 ];
 
 export const WORK_EXPERIENCE = [
   {
   title: "1. COMPLAINT-SYSTEM TO SUBMIT USER’S COMPLAINTS TO THE DIFFERENT DEPARTMENTS",
+  image : "../src/components/assets/ProjectImages/Project1.png",
   date: "Jan 2024 - Feb 2024",
   responsibilities: [
     "Technologies used: React, Bootstrap, Nodejs, Express, MongoDB",
@@ -52,21 +61,11 @@ export const WORK_EXPERIENCE = [
   ],
   link: "https://complain-box-three.vercel.app/",
   },
+  
   {
-  title: "2.Meraki Trends E-commerce Website Development",
-  date: "Feb 2024 - March 2024",
-  responsibilities: [
-    "Developed a visually appealing e-commerce website using WordPress, WooCommerce, Elementor, HTML, CSS, and JavaScript.",
-    "Implemented the full functionality of woocommerce, Embedded OTP verification of user signin and Payment gateway",
-    "Designed and implemented the complete UI/UX, ensuring a seamless and intuitive browsing experience.",
-    "Optimized website performance, implemented responsive design, and integrated SEO strategies to enhance visibility and user engagement.",
-    "Collaborated with stakeholders, provided regular updates, and incorporated feedback to deliver a successful project.",
-  ],
-  link: "https://www.merakitrends.com/",
-  },
-  {
-    title: "3. Outsourcing Agency Website",
+    title: "2. Outsourcing Agency Website",
     date: "29 Sep 2023 - 5 Oct 2029",
+    image : "../src/components/assets/ProjectImages/Project2.png",
     responsibilities : [
     "Technology used: HTML, CSS, JavaScript, WordPress, Elementor Page Builder",
     "Led the development and UI/UX design of EaseMyRecruit Partners, a WordPress website built using the Elementor page builder, showcasing expertise in WordPress development and UI/UX design.",
@@ -78,20 +77,9 @@ export const WORK_EXPERIENCE = [
     
   },
   {
-    title: "4. WEB BASED CHAT APPLICATION",
-    date: "Dec 2023",
-    responsibilities : [
-    "Technologies used: Java, Java Swing, Java Applet, Socket Programming.",
-    "Spearheaded the development of a web-based chat application utilizing Java, Java Swing, and Java Applet technologies, leveraging socket programming to establish seamless real-time communication between users.",
-    "Led the design and implementation of a robust chat application interface using Java Swing and Java Applet, integrated with socket programming to ensure efficient data transmission and synchronization between sender and receiver.",
-    "Demonstrated proficiency in Java, Java Swing, Java Applet, and socket programming through the creation of a web-based chat application, facilitating dynamic and interactive communication features for users.",
-    ,
-    ],
-    link: "https://github.com/FaizanHusainn/ChatApplication",
-  },
-  {
-    title: "5. Job Information Website",
+    title: "3. Job Information Website",
     date: "June 2023",
+    image : "../src/components/assets/ProjectImages/Project3.png",
     responsibilities : [
     " Technology used:  WordPress, Elementor Page Builder",
     " Developed and launched a dynamic job portal website using WordPress and Elementor page builder, attracting a remarkable monthly traffic of 3 lakh PageViews.",
@@ -100,13 +88,13 @@ export const WORK_EXPERIENCE = [
     " Implemented website performance optimization techniques, resulting in fast page load times and improved user satisfaction.",
     
     ],
-    link: "https://jobcutter.com/",
+    link: "https://jobscutter.com/",
   },
   
-  
   {
-    title: "6. Responsive Studio Website",
+    title: "4. Responsive Studio Website",
     date: "Jan 2023 - Feb 2023",
+     image : "../src/components/assets/ProjectImages/Project4.png",
     responsibilities : [
     "Technology used: HTML, CSS, Javascript, Locomotive JS and GSAP.",
     "Responsive Studio website utilizing HTML, CSS, and Javascript, integrating advanced features such as dynamic web animations and smooth scrolling to enhance user engagement and experience.",
@@ -116,6 +104,19 @@ export const WORK_EXPERIENCE = [
     ],
     link: "https://faizanhusainn.github.io/StudioWebsite/",
 
+  },
+  {
+    title: "3. WEB BASED CHAT APPLICATION",
+    date: "Dec 2023",
+      image : "../src/components/assets/ProjectImages/github.webp",
+    responsibilities : [
+    "Technologies used: Java, Java Swing, Java Applet, Socket Programming.",
+    "Spearheaded the development of a web-based chat application utilizing Java, Java Swing, and Java Applet technologies, leveraging socket programming to establish seamless real-time communication between users.",
+    "Led the design and implementation of a robust chat application interface using Java Swing and Java Applet, integrated with socket programming to ensure efficient data transmission and synchronization between sender and receiver.",
+    "Demonstrated proficiency in Java, Java Swing, Java Applet, and socket programming through the creation of a web-based chat application, facilitating dynamic and interactive communication features for users.",
+    ,
+    ],
+    link: "https://github.com/FaizanHusainn/ChatApplication",
   },
   
 ]
