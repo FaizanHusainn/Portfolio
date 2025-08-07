@@ -65,7 +65,7 @@ export const WORK_EXPERIENCE = [
   {
     title: "2. Outsourcing Agency Website",
     date: "29 Sep 2023 - 5 Oct 2029",
-    image : "../src/components/assets/ProjectImages/Project2.png",
+    image : "./Project2.png",
     responsibilities : [
     "Technology used: HTML, CSS, JavaScript, WordPress, Elementor Page Builder",
     "Led the development and UI/UX design of EaseMyRecruit Partners, a WordPress website built using the Elementor page builder, showcasing expertise in WordPress development and UI/UX design.",
@@ -79,7 +79,7 @@ export const WORK_EXPERIENCE = [
   {
     title: "3. Job Information Website",
     date: "June 2023",
-    image : "../src/components/assets/ProjectImages/Project3.png",
+    image : "./Project3.png",
     responsibilities : [
     " Technology used:  WordPress, Elementor Page Builder",
     " Developed and launched a dynamic job portal website using WordPress and Elementor page builder, attracting a remarkable monthly traffic of 3 lakh PageViews.",
@@ -94,7 +94,7 @@ export const WORK_EXPERIENCE = [
   {
     title: "4. Responsive Studio Website",
     date: "Jan 2023 - Feb 2023",
-     image : "../src/components/assets/ProjectImages/Project4.png",
+     image : "./Project4.png",
     responsibilities : [
     "Technology used: HTML, CSS, Javascript, Locomotive JS and GSAP.",
     "Responsive Studio website utilizing HTML, CSS, and Javascript, integrating advanced features such as dynamic web animations and smooth scrolling to enhance user engagement and experience.",
@@ -108,7 +108,7 @@ export const WORK_EXPERIENCE = [
   {
     title: "3. WEB BASED CHAT APPLICATION",
     date: "Dec 2023",
-      image : "../src/components/assets/ProjectImages/github.webp",
+      image : "./github.webp",
     responsibilities : [
     "Technologies used: Java, Java Swing, Java Applet, Socket Programming.",
     "Spearheaded the development of a web-based chat application utilizing Java, Java Swing, and Java Applet technologies, leveraging socket programming to establish seamless real-time communication between users.",
