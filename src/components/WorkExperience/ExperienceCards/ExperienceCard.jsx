@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ExperienceCard.css";
-import myimage from "../../assets/ProjectImages/Project1.png";
+//import myimage from "../../assets/ProjectImages/Project1.png";
 const ExperienceCard = ({ details}) => {
   
   const handleClick = () => {
